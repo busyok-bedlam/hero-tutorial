@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+ul{
+  width: 30%;
+  margin: 100px auto;
+  background: #93ACE9;
+  padding: 30px;
+}
+li{
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1.2;
+  background: #95FA49;
+  margin-bottom: 5px;
+  transition: all .5s ease;
+
+}
+li:hover{
+  background: #66FA49;
+}
+li:active{
+  background: red;
+}
+li>span{
+  display: inline-block;
+  padding: 5px;
+  background: #000;
+  color: #fff;
+
+}
+.table{
+  background: green;
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+  border: 3px solid #000;
+}
